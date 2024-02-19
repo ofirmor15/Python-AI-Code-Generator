@@ -10,7 +10,7 @@ This automation aims to streamline the process of coding simple Python programs 
 - **Code Generation:** Automatically generates Python code based on a predefined set of tasks or user input.
 - **Unit Test Creation:** Generates unit tests for the produced code, ensuring functionality is as expected.
 - **Execution and Feedback:** Attempts to execute the generated Python code, providing error feedback for debugging.
-- **Multi-Attempt Execution:** Makes multiple attempts to generate and execute code, refining based on error feedback.
+- **Multi-Attempt Execution:** Makes multiple attempts to generate and execute code, refining based on error feedback. If the program fails for 5 iterations to generate a functioning code that passes the unit tests it generates itelf as well - the program will admit it failed the task and stop.
 
 ## Requirements
 - Python 3.11 or higher
