@@ -1,4 +1,4 @@
-# Python AI Super Code Generator
+# Python AI Code Generator
 
 ## Overview
 This program is designed to automate the generation of Python code based on user input or randomly selected programming tasks.
